@@ -1,5 +1,5 @@
 +++
-title = "Exercise"
+title = "Practice"
 date = 2019-01-25T15:07:04-06:00
 weight = 10
 draft = false
