@@ -1,3 +1,5 @@
+#### Python Section
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -122,6 +124,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# VS Code Settings
+.vscode/
+
+
+#### MacOs Section
 
 # General
 .DS_Store
@@ -130,7 +137,6 @@ dmypy.json
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
@@ -151,5 +157,14 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-#
-.vscode
+#### Hugo Section
+
+# generated files by hugo
+/docs/
+/public/
+/resources/_gen/
+
+# executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
