@@ -1,0 +1,229 @@
+/* 
+CSS Styles for GitHub Repos by Stars exercise site.
+Sorry for the bad css! I'm a "full-stack" developer.
+*/
+
+/* 
+Checkbox Style From: https://codepen.io/wilder_taype/pen/pNXwMW
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+*{font-family: 'Roboto', sans-serif;}
+
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  transition: all 0.15s ease-out 0s;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+.option-input:hover {
+  background: #9faab7;
+}
+.option-input:checked {
+  background: #40e0d0;
+}
+.option-input:checked::before {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  content: '✔';
+  display: inline-block;
+  font-size: 26.66667px;
+  text-align: center;
+  line-height: 40px;
+}
+.option-input:checked::after {
+  background: #40e0d0;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
+body {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: box;
+  background: #e8ebee;
+  color: #9faab7;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  text-align: center;
+}
+body div {
+  padding: 5rem;
+}
+body label {
+  display: block;
+  line-height: 40px;
+  text-align: left;
+}
+
+/* 
+Button Style From: https://codepen.io/wilder_taype/pen/LeoQEb
+*/
+
+button {
+    display: block;
+    border-radius: 3px;
+    margin: 15px 5px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 3px 7px 7px 4px rgba(237,80,83,.5), 1px 0 0 rgba(0,0,0,.15);
+    background: #ed5053;
+    padding: 20px;
+    flex-grow: 1;
+    width: 100px;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+/*
+Table Style From: https://codepen.io/gmb/pen/xVGYZw
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #20262e;
+  background-color: #28b1de;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 800px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, .8);
+  text-transform: uppercase;
+  line-height: 1.375;
+  margin: 0 0 2.4rem 0;
+  letter-spacing: 1px
+}
+
+h2 {
+  text-align: right;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  line-height: 1.375;
+  margin: 0;
+  letter-spacing: 1px
+}
+
+table {
+  width: 100%;
+  min-width: 300px;
+  margin-bottom: 2.4rem;
+  background-color: #20262e;
+  color: #fff;
+  overflow: hidden;
+}
+
+table tr:nth-child(even) {
+  background-color: rgb(46, 53, 62);
+}
+
+table th,
+table td:before {
+  color: #28b1de;
+}
+
+table th {
+  display: none;
+}
+
+table th,
+table td {
+  margin: .5rem 2rem;
+  text-align: left;
+}
+
+table td {
+  display: block;
+  font-size: 90%;
+}
+
+table td:first-child {
+  padding-top: 1rem;
+}
+
+table td:last-child {
+  padding-bottom: 1rem;
+}
+
+table td:before {
+  content: attr(data-th) ':\00a0';
+  font-weight: bold;
+  min-width: 8rem;
+  display: inline-block;
+}
+
+
+@media (min-width: 600px) {
+  table td:before {
+    display: none;
+  }
+  table th,
+  table td {
+    display: table-cell;
+  }
+  table th,
+  table td,
+  table td:first-child,
+  table td:last-child {
+    padding: 1.5rem 2rem;
+  }
+}
+
+/*
+Error Page Style From: https://codepen.io/akashrajendra/pen/JKKRvQ
+*/
+
+#error{
+    font-family: 'Lato', sans-serif;
+  color: #888;
+  margin: 0;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.fof{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fof h1{
+    font-size: 50px;
+    display: inline-block;
+    padding-right: 12px;
+}

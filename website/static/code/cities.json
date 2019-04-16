@@ -1,0 +1,21 @@
+[{
+		"name": "New York",
+		"pop": 8550405
+	},
+	{
+		"name": "Los Angeles",
+		"pop": 3971883
+	},
+	{
+		"name": "Chicago",
+		"pop": 2720546
+	},
+	{
+		"name": "Houston",
+		"pop": 2296224
+	},
+	{
+		"name": "Philadelphia",
+		"pop": 1567442
+	}
+]

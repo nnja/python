@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Learn Python: Popular GitHub Repos (by ⭐️) With Flask</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+
+</head>
+
+<body>
+    <div>
+        <h1>Languages</h1>
+        <form action="{{ url_for('index') }}" method="post">
+            {% for language in available_languages %}
+                <label>
+                    <input type="checkbox" class="option-input checkbox" name="languages" value="{{ language }}"
+                    {{ 'Checked' if language in selected_languages else 'Unchecked' }} />
+                    {{ language }}
+                </label>
+            {% endfor %}
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h1>Popular GitHub Repos (by ⭐️)</h1>
+        <div class="table-1">
+            <table>
+                <tbody>
+                    {% if not results %}
+                        No Results.
+                    {% else %}
+                        <tr>
+                            <th>Name</th>
+                            <th>Language</th>
+                            <th>Number Stars</th>
+                        </tr>
+                    {% endif %}
+
+                    {% for result in results %}
+                        <tr>
+                            <td data-th="Block">{{result.name}}</td>
+                            <td data-th="Element">{{result.language}}</td>
+                            <td data-th="Modifier">{{result.num_stars}}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Nina Zakharenko - Introduction and Intermediate Python"
+theme = "nnja-theme-learn"
+themesdir = "themes"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+ignoreFiles = [ "\\.pyc$",  "__pycache__"]
+publishDir = "docs"
+
+[params]
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "blue"
+  editURL = "https://github.com/nnja/python/edit/master/website/content/"
+  description = "Course Materials by Nina Zakharenko for Introduction and Intermediate Python on Frontend Masters"
+  author = "Nina Zakharenko"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableInlineCopyToClipBoard = true
+
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "Documentation for Hugo Learn Theme"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://git.io/python3"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-twitter'></i> Follow Nina on Twitter"
+url = "https://twitter.com/nnja"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 30
