@@ -64,7 +64,7 @@ As we saw earlier, scoping in Python happens with whitespace. Let's see this in 
 ...     return x + y
 ...
 >>> print(f"Outside the function, x = {x} and y = {y}")
->>> print(f"The product of 5 and 6 is {add_numbers(5, 6)}")
+>>> print(f"The sum of 5 and 6 is {add_numbers(5, 6)}")
 ```
 
 {{%expand "Here's what you should have seen in your REPL:" %}}
@@ -79,7 +79,7 @@ As we saw earlier, scoping in Python happens with whitespace. Let's see this in 
 >>> print(f"Outside the function, x = {x} and y = {y}")
 Outside the function, x = 1 and y = 2
 >>>
->>> print(f"The product of 5 and 6 is {add_numbers(5, 6)}")
+>>> print(f"The sum of 5 and 6 is {add_numbers(5, 6)}")
 Inside the function, x = 5 and y = 6
 The product of 5 and 6 is 11
 ```
