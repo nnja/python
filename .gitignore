@@ -160,7 +160,7 @@ Temporary Items
 #### Hugo Section
 
 # generated files by hugo
-/docs/
+docs/
 /public/
 /resources/_gen/
 
