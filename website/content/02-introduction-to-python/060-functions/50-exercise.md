@@ -21,7 +21,7 @@ Now let's try our new function. Type this into your REPL:
 ```python
 >>> add_numbers(1, 2)
 # Let's use the string formatting we learned in the last chapter
->>> print(f"The product of 1 and 2 is {add_numbers(1, 2)}")
+>>> print(f"The sum of 1 and 2 is {add_numbers(1, 2)}")
 ```
 
 {{%expand "Here's what you should have seen in your REPL:" %}}
@@ -30,7 +30,7 @@ Now let's try our new function. Type this into your REPL:
 >>> add_numbers(1, 2)
 3
 # Let's use the string formatting we learned in the last chapter
->>> print(f"The product of 1 and 2 is {add_numbers(1, 2)}")
+>>> print(f"The sum of 1 and 2 is {add_numbers(1, 2)}")
 The product of 1 and 2 is 3
 ```
 
@@ -81,7 +81,7 @@ Outside the function, x = 1 and y = 2
 >>>
 >>> print(f"The sum of 5 and 6 is {add_numbers(5, 6)}")
 Inside the function, x = 5 and y = 6
-The product of 5 and 6 is 11
+The sum of 5 and 6 is 11
 ```
 
 {{% /expand%}}
