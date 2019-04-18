@@ -31,7 +31,7 @@ Now let's try our new function. Type this into your REPL:
 3
 # Let's use the string formatting we learned in the last chapter
 >>> print(f"The sum of 1 and 2 is {add_numbers(1, 2)}")
-The product of 1 and 2 is 3
+The sum of 1 and 2 is 3
 ```
 
 {{% /expand%}}
