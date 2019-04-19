@@ -9,17 +9,20 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 ignoreFiles = [ "\\.pyc$",  "__pycache__"]
 publishDir = "docs"
+googleAnalytics = "UA-138644383-1"
 
 [params]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "blue"
   editURL = "https://github.com/nnja/python/edit/master/website/content/"
-  description = "Course Materials by Nina Zakharenko for Introduction and Intermediate Python on Frontend Masters"
+  defaultSocialImage = "images/twittercard.png"
+  description = "Free Learn Python Course by Nina Zakharenko - An intensive two day introduction and intermediate course on Python. Video course published on Frontend Masters."
   author = "Nina Zakharenko"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
   disableInlineCopyToClipBoard = true
+  twitter = "nnja"
 
 
 # For search functionality
@@ -28,7 +31,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Documentation for Hugo Learn Theme"
+title = "Learn Python by Nina Zakharenko"
 weight = 1
 languageName = "English"
 
