@@ -28,7 +28,7 @@ Let's review what we learned over the last two days and put it all together.
 
 For our final exercise today, we're going to build on yesterday's final exercise, where we wrote a program to query the GitHub API for a list of repos for certain programming languages, sorted by number of stars. We'll be turning yesterday's exercise into a Flask webapp. Flask is a simple and popular framework for creating basic web apps in Python.
 
-First, create a new folder for this exercise, called `day_two_final`. You'll need two folders of static content - CSS and HTML files - to make this work. You can [download them here](http://localhost:1313/code/day_two_final_exercise/static_files.zip). Unzip your `static_files.zip` file and copy your `static` and `template` folders to your `day_two_final` folder.
+First, create a new folder for this exercise, called `day_two_final`. You'll need two folders of static content - CSS and HTML files - to make this work. You can [download them here](https://learnpython.dev/code/day_two_final_exercise/static_files.zip). Unzip your `static_files.zip` file and copy your `static` and `template` folders to your `day_two_final` folder.
 
 Next, create a folder called `repos`. This is where we'll create our custom module. Inside this folder we'll create three files: `exceptions.py`, `models.py`, and `api.py`.
 
