@@ -76,7 +76,7 @@ If you don't see a Python version greater than 3.7, please follow the instructio
 
 ### Creating a Virtual Environment and The Project Folder
 
-A Virtual Environments in Python is a self-contained directory that contains a Python installation for a particular version of Python.
+A Virtual Environment in Python is a self-contained directory that contains a Python installation for a particular version of the language.
 
 It's a very useful way to make sure that we're using the right Python version when we're working on a particular project.
 
