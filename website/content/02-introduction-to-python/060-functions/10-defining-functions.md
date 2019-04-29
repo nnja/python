@@ -204,4 +204,4 @@ Let's try it now.
 8
 ```
 
-The variable `new_number` now contains the result of running our `add_numbers` function with our arguments `3` and `8`.
+The variable `new_number` now contains the result of running our `add_numbers` function with our arguments `3` and `5`.
