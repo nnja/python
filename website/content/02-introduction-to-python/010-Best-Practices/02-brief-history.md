@@ -19,7 +19,7 @@ A common misconception that Python is a scripting language. It's used at compani
 
 This part is a bit of a stain on Pythons history. Python 3 was released 2008, and its adoption was slow. First and foremost because it took popular packages a fair amount of time to port over their code.
 
-This debate is now over. Python 2 will reach end-of-life in 2020, meaning that important updates - including security updates - will stop being released. That's why this course focuses on *Python3 only*
+This debate is now over. Python 2 will reach end-of-life in 2020, meaning that important updates - including security updates - will stop being released. That's why this course focuses on *Python3 only*.
 
 ### Why Python?
 
@@ -40,7 +40,7 @@ Python has a wide variety of applications such as:
     - Django
     - Flask
 - Scripting
-    - Dev Ops
+    - DevOps
     Configuration scripts
 
 Python has an incredibly rich fully featured [standard library](https://docs.python.org/3/library/), as well as the [PyPI Package Index](https://pypi.org/) for 3rd party packages, which as of February 2019 contains 167,107 packages.
