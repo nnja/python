@@ -7,7 +7,7 @@ weight: 30
 
 Tuples are light-weight collections used to keep track of related, but different items. Tuples are **immutable**, meaning that once a tuple has been created, the items in it can't change.
 
-You might ask, why tuples when Python already has lists? Tuples are different in a few ways. While lists are generally used to store collections of similar items together, tuples, by contrast, can be used considered to contain a snapshot of data. They can't be continually changed, added or removed from like you could with a list.
+You might ask, why tuples when Python already has lists? Tuples are different in a few ways. While lists are generally used to store collections of similar items together, tuples, by contrast, can be used to contain a snapshot of data. They can't be continually changed, added or removed from like you could with a list.
 
 ### `tuple` cheat sheet
 
@@ -27,7 +27,7 @@ You might ask, why tuples when Python already has lists? Tuples are different in
 A good use of a `tuple` might be for storing the information for a *row* in a spreadsheet. That data is information only. We don't necessarily care about updating or manipulating that data. We just want a read-only snapshot.
 
 
-Tuples are an interesting and powerful datatype, and one that's one of the more unique aspects of Python. Most other programming languages have ways of representing lists and dictionaries, but only a small subset contain tuples. Use them to your advantage.
+Tuples are an interesting and powerful datatype, and one of the more unique aspects of Python. Most other programming languages have ways of representing lists and dictionaries, but only a small subset contain tuples. Use them to your advantage.
 
 ### Examples
 
@@ -70,7 +70,7 @@ Let's say we have a spreadsheet of students, and we'd like to represent each row
 
 #### Access by index
 
-We can access items in the `tuple` by index, but we **can't change them.
+We can access items in the `tuple` by index, but we **can't** change them.
 
 ```python
 >>> student = ("Marcy", 8, "History", 3.5)
