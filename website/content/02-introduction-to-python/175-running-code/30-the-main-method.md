@@ -7,7 +7,7 @@ weight: 30
 
 Once you start writing more comprehensive Python programs, you'll want to include a `main` method in your code.
 
-The purpose of checking for the main method is to make sure that the code in your main method is only run when it's executed as a stand-alone program. Because of how Python's import system works, if someone else imports your Python program, any code in it is executed on import.
+The purpose of checking for the `main` method is to make sure that the code in your `main` method is only run when it's executed as a stand-alone program. Because of how Python's import system works, if someone else imports your Python program, any code in it is executed on import.
 
 We'll talk more about imports and modules on day two, but let's look at a quick example.
 
