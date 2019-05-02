@@ -19,6 +19,7 @@ The `break` statement will completely break out of the *current loop*, meaning i
 
 
 ```python
+>>> names = ["Rose", "Max", "Nina", "Phillip"]
 >>> for name in names:
 ...     print(f"Hello, {name}")
 ...     if name == "Nina":
@@ -119,6 +120,7 @@ Nina in outer loop
 You can also use `break` and `continue` in `while` loops. One common scenario is running a loop forever, until a certain condition is met.
 
 ```python
+>>> count = 0 
 >>> while True:
 ...     count += 1
 ...     if count == 5:
