@@ -41,7 +41,7 @@ The color is: Orange
 
 Let's say we wanted to duplicate the code in the example JavaScript above, that prints out the numbers from 0 to 4.
 
-In order to do this, we'll need to use a built-in function called `range()`. The range function in python produces a sequence of integers from an optional and inclusive tart, to a defined and exclusive finish.
+In order to do this, we'll need to use a built-in function called `range()`. The range function in python produces a sequence of integers from an optional and inclusive start, to a defined and exclusive finish.
 
 
 In Python2, this function created a list of each number in that sequence. As you can imagine, it was horribly inefficient for large ranges. In Python3, the `range()` function returns a new optimized data type. It's great for optimization, but it's harder for debugging.
@@ -80,7 +80,7 @@ The number is: 4
 You can also pass an a third optional `step` parameter in. Let's say I quickly wanted to print out all the even numbers from 2 to 10. I would call `range(2, 11, 2)`. Remember, 2 is where we're starting, 11 is one higher than where we're ending (10), and 2 is the step, or the amount to jump between numbers.
 
 ```python
->>> for num in range(4, 11, 2):
+>>> for num in range(2, 11, 2):
 ...     print(f"The number is: {num}")
 ...
 The number is: 2
