@@ -16,7 +16,7 @@ Watch the accompanying screencast via subscription on [FrontendMasters.com](http
 
 Stay up to date with me on <a href="https://linkedin.com/nnja" target="_blank"><i class='fab fa-linkedin'></i> LinkedIn</a>, or to contact me directly, please send me an email at <a href='ma&#105;lto&#58;&#108;e&#37;61r&#37;&#54;Ep%&#55;&#57;t%68on&#64;nn&#106;&#97;&#46;&#105;o'><i class='fa fa-envelope'></i>  lea&#114;npyt&#104;on&#64;nnja&#46;&#105;o</a>.
 
-You can find the content and exercises on the <a href="https://git.io/python3"><i class='fab fa-fw fa-github'></i>Github repo</a>.
+You can find the content and exercises on the <a href="https://git.io/python3"><i class='fab fa-fw fa-github'></i>GitHub repo</a>.
 
 
 The course content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
