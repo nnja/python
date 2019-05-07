@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-Per the dictionary, and API is:
+Per the dictionary, an API is:
 
 > a set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service.
 

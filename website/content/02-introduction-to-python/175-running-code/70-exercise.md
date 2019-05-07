@@ -65,7 +65,7 @@ if __name__ == "__main__":
     main()
 ```
 
-A few new things here: first, remember that `enumerate()` outputs a tuple of (index, entry), so we use `index` and `entry` variables to capture those. Then, for ever item in the list, we print the index (+ 1, because zero-indexed lists are sometimes hard to read), and we pull the name and population out of each entry dictionary using the dictionary `[]` syntax.
+A few new things here: first, remember that `enumerate()` outputs a tuple of (index, entry), so we use `index` and `entry` variables to capture those. Then, for every item in the list, we print the index (+ 1, because zero-indexed lists are sometimes hard to read), and we pull the name and population out of each entry dictionary using the dictionary `[]` syntax.
 
 {{%expand "Here's what you should have seen on your command line:" %}}
 

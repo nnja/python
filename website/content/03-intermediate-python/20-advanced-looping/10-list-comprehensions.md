@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-List comprehensions are a unique way to create lists in Python. A list comprehension consists of brackets containing and expression followed by a `for` clause, then zero or more `for` or `if` clauses. The expressions can be any kind of Python object. List comprehensions will commonly take the form of `[<value> for <vars> in <iter>]`.
+List comprehensions are a unique way to create lists in Python. A list comprehension consists of brackets containing an expression followed by a `for` clause, then zero or more `for` or `if` clauses. The expressions can be any kind of Python object. List comprehensions will commonly take the form of `[<value> for <vars> in <iter>]`.
 
 A simple case: Say we want to turn a list of strings into a list of string *lengths.* We could do this with a `for` loop:
 
