@@ -5,7 +5,7 @@ draft: false
 weight: 7
 ---
 
-It's often necessary to iterate over multiple lists simultaneously. Suppose we're keeping score of a game and we have two lists, one of names and one of scores:
+It's often necessary to iterate over multiple lists simultaneously. Suppose we're keeping score of a game and we have two lists, one for names and one for scores:
 
 ```python
 >>> names = ["Bob", "Alice", "Eve"]
@@ -41,6 +41,7 @@ The loop terminates even though there are more values in `names`. Here, Eve isn'
 We can also use `zip()` to quickly and easily create a `dict` from two lists. For example:
 
 ```python
+>>> scores.append(68)
 >>> score_dict = dict(zip(names, scores))
 >>> print(score_dict)
 {'Bob': 42, 'Alice': 97, 'Eve': 68}
