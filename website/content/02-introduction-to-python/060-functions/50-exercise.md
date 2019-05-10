@@ -1,5 +1,5 @@
 ---
-title: "Exercise"
+title: "Practice"
 date: 2019-03-02T00:00:00-08:00
 draft: false
 weight: 50
@@ -21,7 +21,7 @@ Now let's try our new function. Type this into your REPL:
 ```python
 >>> add_numbers(1, 2)
 # Let's use the string formatting we learned in the last chapter
->>> print(f"The product of 1 and 2 is {add_numbers(1, 2)}")
+>>> print(f"The sum of 1 and 2 is {add_numbers(1, 2)}")
 ```
 
 {{%expand "Here's what you should have seen in your REPL:" %}}
@@ -30,8 +30,8 @@ Now let's try our new function. Type this into your REPL:
 >>> add_numbers(1, 2)
 3
 # Let's use the string formatting we learned in the last chapter
->>> print(f"The product of 1 and 2 is {add_numbers(1, 2)}")
-The product of 1 and 2 is 3
+>>> print(f"The sum of 1 and 2 is {add_numbers(1, 2)}")
+The sum of 1 and 2 is 3
 ```
 
 {{% /expand%}}
@@ -64,7 +64,7 @@ As we saw earlier, scoping in Python happens with whitespace. Let's see this in 
 ...     return x + y
 ...
 >>> print(f"Outside the function, x = {x} and y = {y}")
->>> print(f"The product of 5 and 6 is {add_numbers(5, 6)}")
+>>> print(f"The sum of 5 and 6 is {add_numbers(5, 6)}")
 ```
 
 {{%expand "Here's what you should have seen in your REPL:" %}}
@@ -79,9 +79,9 @@ As we saw earlier, scoping in Python happens with whitespace. Let's see this in 
 >>> print(f"Outside the function, x = {x} and y = {y}")
 Outside the function, x = 1 and y = 2
 >>>
->>> print(f"The product of 5 and 6 is {add_numbers(5, 6)}")
+>>> print(f"The sum of 5 and 6 is {add_numbers(5, 6)}")
 Inside the function, x = 5 and y = 6
-The product of 5 and 6 is 11
+The sum of 5 and 6 is 11
 ```
 
 {{% /expand%}}

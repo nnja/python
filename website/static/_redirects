@@ -1,0 +1,2 @@
+# Redirect default subdomain to primary domain
+https://learnpython.netlify.com/* https://www.learnpython.dev/:splat 301!

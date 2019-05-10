@@ -1,5 +1,5 @@
 ---
-title: "Exercise"
+title: "Practice"
 date: 2019-03-09T00:00:00-08:00
 draft: false
 weight: 10
