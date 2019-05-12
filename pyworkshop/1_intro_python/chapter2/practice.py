@@ -1,4 +1,4 @@
-# Part 1
+# Types
 x = 42
 type(x)
 
@@ -14,12 +14,12 @@ type(a)
 name = "Nina"
 type(name)
 
-# Part 2
+# Numbers 
 rent = 480
 per_day = rent / 30
 print(per_day)
 
-# Part 3
+# Strings
 print("Hello world")
 name = "Nina"
 print("My name is", name)
@@ -30,7 +30,7 @@ print("Hello, my name is %s" % name)
 name = "Nina"
 print(f"Hello, my name is {name} and I pay ${rent / 30} in rent per day")
 
-# Part 4
+# Helper Functions
 x = 42
 y = 3 / 4
 name = "Nina"
