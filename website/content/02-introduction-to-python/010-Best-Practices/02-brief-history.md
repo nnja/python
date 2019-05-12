@@ -43,7 +43,7 @@ Python has a wide variety of applications such as:
     - Dev Ops
     Configuration scripts
 
-Python has an incredibly rich fully featured [standard library](https://docs.python.org/3/library/), as well as the [PyPI Package Index](https://pypi.org/) for 3rd party packages, which as of February 2019 contains 167,107 packages.
+Python has an incredibly rich fully featured [standard library](https://docs.python.org/3/library/), as well as the [PyPI Package Index](https://pypi.org/) for 3rd party packages, which as of May 2019 contains 179,473 packages.
 
 Python is considered to be a "batteries included" language, because the standard library contains a majority of the libraries and packages you'll need in a standard application.
 
