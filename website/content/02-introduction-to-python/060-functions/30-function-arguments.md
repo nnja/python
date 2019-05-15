@@ -164,7 +164,7 @@ Why? Because it won't work like you'd expect it to.
 
 If you need to use a mutable type, like a `list` as a default, use a *marker* instead. We'll cover this technique when we talk about `list`s in the next chapter.
 
-In Python, default arguments are evaluated only once -- when the unction is defined. Not each time the function is called. That means if you use a value that can be changed, it won't behave like you'd expect it to.
+In Python, default arguments are evaluated only once -- when the function is defined. Not each time the function is called. That means if you use a value that can be changed, it won't behave like you'd expect it to.
 
 ### Naming Functions and Arguments
 
