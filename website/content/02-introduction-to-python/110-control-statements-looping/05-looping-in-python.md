@@ -98,7 +98,7 @@ If you can't remember how to use range, don't forget to call `help(range)` from 
 
 #### Looping over items with the index using `enumerate`.
 
-In Python, we avoid writing code like like the JavaScript `for` loop at the top, but sometimes it's unavoidable, and we need a way to access the index of the items we're looping through. To do that we use a special function called `enumerate()`. The function takes a sequence, like a `list`, and it *returns* a `list` of tuples, containing the index of the item in the sequence, and the sequence itself.
+In Python, we avoid writing code like the JavaScript `for` loop at the top, but sometimes it's unavoidable, and we need a way to access the index of the items we're looping through. To do that we use a special function called `enumerate()`. The function takes a sequence, like a `list`, and it *returns* a `list` of tuples, containing the index of the item in the sequence, and the sequence itself.
 
 Don't worry about the list of tuples for now, but remember our tuple unpacking from earlier?
 
@@ -113,7 +113,7 @@ Don't worry about the list of tuples for now, but remember our tuple unpacking f
 11
 ```
 
-Because `enumerate()` returns a structure that looks like a list of `tuple`s under the hood, we can take advantage of tuple unpacking in the the `for` loop.
+Because `enumerate()` returns a structure that looks like a list of `tuple`s under the hood, we can take advantage of tuple unpacking in the `for` loop.
 
 ```python
 >>> for index, item in enumerate(colors):
