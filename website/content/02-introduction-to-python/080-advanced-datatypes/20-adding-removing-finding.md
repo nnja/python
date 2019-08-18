@@ -76,7 +76,7 @@ insert(self, index, object, /)
     Insert object before index.
 ```
 
-You can also call help on `list.insert`. Because `names` is already of type `list`, it achieves the same result.
+You can also call help on `names.insert`. Because `names` is already of type `list`, it achieves the same result.
 
 ##### `my_list.extend(other_list)` adds all the contents of `other_list` to `my_list`
 
