@@ -10,7 +10,7 @@ draft: false
 {{< figure src="/images/me.jpg" width="20%" title="Nina Zakharenko" >}}
 </a>
 
-Hi, I'm Nina Zakharenko. I'm a Senior Cloud Developer Advocate and Microsoft, focusing on Python. Before Microsoft, I wrote code for other cool companies like Reddit, Meetup, and HBO. In my spare time I like drinking scotch and tinkering with wearable electronics. I enjoy hiking and snowboarding from my home base in Portland, Oregon. I change my hair color regularly.
+Hi, I'm Nina Zakharenko. I'm a Senior Cloud Developer Advocate at Microsoft, focusing on Python. Before Microsoft, I wrote code for other cool companies like Reddit, Meetup, and HBO. In my spare time I like drinking scotch and tinkering with wearable electronics. I enjoy hiking and snowboarding from my home base in Portland, Oregon. I change my hair color regularly.
 
 
 I've been involved in the Python community for approximately 6 years. During that time I've spoken at multiple Python conferences on a variety of topics, including PyCon US, PyParis, DjangoCon, and even PyCon Russia in Moscow.
