@@ -90,14 +90,14 @@ For example, in the REPL, let's make a new variable `name`, and check its `type`
 We'll see that the type is `str`, Python's version of a string. Now that we know this object's type, we can
 pass the type into other methods.
 
-The first one is `dir()` which stands for directory. If we check the type of `str` (notice, no quotes here)) in the REPL, we'll see all the methods available on strings in Python. Don't worry about these for now, we'll use them later in the day.
+The first one is `dir()` which stands for directory. If we check the directory of `str` (notice, no quotes here)) in the REPL, we'll see all the methods available on strings in Python. Don't worry about these for now, we'll use them later in the day.
 
 ```Python
 >>> dir(str)
 ['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
 ```
 
-The next useful method is `help()`. You can a type, method, or other object to help to instantly see available documentation about the method, the parameters it expects, and what it returns.
+The next useful method is `help()`. You can pass a type, method, or other object to help to instantly see available documentation about the method, the parameters it expects, and what it returns.
 
 Let's try this in the REPL, and look up the documentation for the `isupper` method in String. We access it with the period symbol (`.`). This is called dot-notation.
 
