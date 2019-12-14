@@ -7,7 +7,7 @@ weight: 1
 
 ### Naming Variables
 
-Python variables can't start with with a number. In general, they're named all lower case, separated by underscores. Unlike other languages, that name their variables with camelCase.
+Python variables can't start with a number. In general, they're named all lower case, separated by underscores. Unlike other languages, that name their variables with camelCase.
 
 You don't want to name your variables the same as the *types* that we'll be working with. For example **don't** name your variables `int`, `list`, `dict`. Etc.
 
