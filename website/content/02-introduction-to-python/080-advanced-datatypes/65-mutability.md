@@ -26,6 +26,6 @@ For the mutability of the container types we covered in this chapter, check this
 | container type 	| use                                                                                                     	| mutable? 	|
 |----------------	|---------------------------------------------------------------------------------------------------------	|----------	|
 | `list`         	| ordered group of items, accessible by position                                                          	| **yes**  	|
-| `set`          	| unordered group of mutable items. useful for set operations (membership, intersection, difference, etc) 	| **yes**  	|
+| `set`          	| unordered group of immutable items. useful for set operations (membership, intersection, difference, etc) 	| **yes**  	|
 | `tuple`        	| contain ordered groups of items in an **immutable** collection                                          	| **no**   	|
 | `dict`         	| contains key value pairs                                                                                	| **yes**  	|
