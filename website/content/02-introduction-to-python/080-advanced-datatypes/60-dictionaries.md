@@ -178,7 +178,7 @@ There are three useful methods you need to remember about `dict`ionary access:
 
 1. `my_dict.keys()`
 2. `my_dict.values()`
-3. `'my_dict.items()`
+3. `my_dict.items()`
 
 #### 1. `my_dict.keys()` Getting all the keys in a dictionary
 
