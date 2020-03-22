@@ -41,7 +41,7 @@ The color is: Orange
 
 Let's say we wanted to duplicate the code in the example JavaScript above, that prints out the numbers from 0 to 4.
 
-In order to do this, we'll need to use a built-in function called `range()`. The range function in python produces a sequence of integers from an optional and inclusive tart, to a defined and exclusive finish.
+In order to do this, we'll need to use a built-in function called `range()`. The range function in python produces a sequence of integers from an optional and inclusive start, to a defined and exclusive finish.
 
 
 In Python2, this function created a list of each number in that sequence. As you can imagine, it was horribly inefficient for large ranges. In Python3, the `range()` function returns a new optimized data type. It's great for optimization, but it's harder for debugging.
