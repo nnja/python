@@ -62,7 +62,7 @@ Convention says that numbers should be named in lower case, with whole words sep
 If you want to learn more about Python naming conventions look at [PEP8](https://www.python.org/dev/peps/pep-0008/#naming-conventions) during a break.
 {{% /notice %}}
 
-Because Python is a dynamic language and you don't have type hints to explain what's stored inside a variable while reading code, you should do your best naming your variables to describe what is stored inside of them.
+Because Python is a dynamic language and you don't have type hints to explain what's stored inside a variable while reading a code, you should do your best naming your variables to describe what is stored inside of them.
 
 It's ok to be _verbose_. For example, `n` is a poor variable name, while `numbers` is a better one. If you're storing a collection of items, name your variable as a plural.
 
@@ -84,7 +84,7 @@ If you notice your program behaving oddly and you can't find the source of the b
 
 ## Types
 
-Python has a very easy way of determining the type of something. It's the `type()` function.
+Python has a very easy way of determining the type of something, with the `type()` function.
 
 ```python
 >>> num = 42
