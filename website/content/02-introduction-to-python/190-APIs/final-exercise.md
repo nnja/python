@@ -11,7 +11,7 @@ Let's review what we learned today and put it all together.
 For the final exercise of today, we're going to write a small program that requests the top repositories from GitHub, ordered by the number of stars each repository has, then we're going to print the results to our terminal. Create a new file called `day_one.py`.
 
 {{% notice note %}}
-You may need to install the `requests` library using `python -m pip install requests`. You may see `pip` used directly, but using `python -m pip` is [reccomended by Python](https://docs.python.org/3/installing/index.html).
+You may need to install the `requests` library using `python -m pip install requests`. You may see `pip` used directly, but using `python -m pip` is [recommended by Python](https://docs.python.org/3/installing/index.html).
 {{% /notice %}}
 
 Let's start with our key function, the one that gets the data from the [GitHub API](https://developer.github.com/v3/search/). Use the `requests` library to do a GET request on the GitHub search API URL ("https://api.github.com/search/repositories"). Use `if __name__ == "__main__"` to check to make sure we're running the file directly, and to call our function. Don't forget to `import requests`
