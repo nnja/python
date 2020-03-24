@@ -84,7 +84,7 @@ If you notice your program behaving oddly and you can't find the source of the b
 
 ## Types
 
-Python has a very easy way of determining the type of something. It's the `type()` function.
+Python has a very easy way of determining the type of something, with the `type()` function.
 
 ```python
 >>> num = 42
