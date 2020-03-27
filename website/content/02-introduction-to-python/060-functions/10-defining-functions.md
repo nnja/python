@@ -15,7 +15,7 @@ This is the recipe for defining a Python function:
 1. a name for the function
 1. `(`: opening parenthesis
 1. (optional) the **names** of one or more arguments, separated with `,`
-1. (optional) the **names** and **values** of one or more default arguments, separated with (`,`) *note: we'll see these in the next section*
+1. (optional) the **names** and **values** of one or more default arguments, separated with (`,`) *note: we'll see this in the next section*
 1. `)` closing parenthesis
 1. `:` a colon
 
@@ -65,10 +65,10 @@ SyntaxError: invalid syntax
 
 The recipe for function contents:
 
-1. a new line
-1. indentation (press tab on your keyboard)
-1. one or more lines
-1. (optional) a `return` statement
+1. a new line.
+1. indentation (press tab on your keyboard).
+1. one or more lines.
+1. (optional) a `return` statement.
 
 #### `return` statement
 
