@@ -21,7 +21,7 @@ IndentationError: expected an indented block
 
 Notice that we started a new function scope with the `def` keyword, but didn't indent the next line of the function, the `print()` argument.
 
-You've probably also seen the more general `SyntaxError`. This one's probably obvious - something is misspelled, or the syntax is otherwise wrong. Python gives us a helpful little carrot `^` under the earliest point where the error was detected, however you'll have to learn to read this with a critical eye as sometimes the actual mistake precedes the invalid syntax. For example:
+You've probably also seen the more general `SyntaxError`. This one's probably obvious - something is misspelled, or the syntax is otherwise wrong. Python gives us a helpful little caret `^` under the earliest point where the error was detected, however you'll have to learn to read this with a critical eye as sometimes the actual mistake precedes the invalid syntax. For example:
 
 ```python
 >>> a = [4,
