@@ -38,7 +38,7 @@ So, if you wanted to catch a divide-by-zero error, you could use `except ZeroDiv
 
 ## Exiting your Program
 
-As we mentioned, exceptions that are allowed to bubble up to the top level (called *unhandled* exceptions) will cause your program to exit. This is generally unwanted - even if an error in unrecoverable, we still want to provide more detailed information about the error for later inspection, or a pretty error for the user if our program is user-facing, and in most cases, we want the program to go back to doing what it was doing.
+As we mentioned, exceptions that are allowed to bubble up to the top level (called *unhandled* exceptions) will cause your program to exit. This is generally unwanted - even if an error is unrecoverable, we still want to provide more detailed information about the error for later inspection, or a pretty error for the user if our program is user-facing, and in most cases, we want the program to go back to doing what it was doing.
 
 What if we want our program to stop, though? You may already be familiar with `ctrl-c`, the age-old posix method of sending SIGINT (an interrupt signal) to a program. You may be surprised to know asking your operating system to send SIGINT to Python causes, yes, an exception - `KeyboardInterrupt`. And yes, you can catch `KeyboardInterrupt`, but this will make your program a little harder to kill.
 
