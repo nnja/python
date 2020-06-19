@@ -116,7 +116,7 @@ False
 Notice that only the *first* index of the string `"Nina"` is returned. We'll learn more about what an index is in the next chapter.
 
 {{% notice info %}}
-If the item we're looking for *is not* in the list, Python with throw a `ValueError`.
+If the item we're looking for *is not* in the list, Python will throw a `ValueError`.
 {{% /notice %}}
 
 You'll learn how to deal with exceptions later. For now, you can use the `in` operator to check if an item is present in the list before finding its index.
