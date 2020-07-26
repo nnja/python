@@ -80,7 +80,7 @@ The number is: 4
 You can also pass an a third optional `step` parameter in. Let's say I quickly wanted to print out all the even numbers from 2 to 10. I would call `range(2, 11, 2)`. Remember, 2 is where we're starting, 11 is one higher than where we're ending (10), and 2 is the step, or the amount to jump between numbers.
 
 ```python
->>> for num in range(4, 11, 2):
+>>> for num in range(2, 11, 2):
 ...     print(f"The number is: {num}")
 ...
 The number is: 2
