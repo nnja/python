@@ -231,7 +231,7 @@ Dictionaries are great for storing data that you can index with keys. The keys m
 
 ```python
 >>> my_dict = {"key": "value"}
-# Remember, dictionaries don't have numerical indexes like lists, so if you try to use an index number...
+# Remember, dictionaries don't have numerical indexes like sets, so if you try to use an index number...
 # Unless 0 happens to be a key.
 >>> my_dict[0]
 # You'll get a KeyError!
