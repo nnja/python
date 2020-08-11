@@ -90,7 +90,7 @@ We'll see `TypeError: 'tuple' object does not support item assignment` if we try
 
 ### `tuple` unpacking.
 
-Sounds like a lot of work for not a lot of benefit, right? Not so. `tuple`s are great when you depend on your data staying unchanged. Because of this guarantee, we can use `tuples` in other types of containers like `set`s and `dict`ionaries.
+Sounds like a lot of work for not a lot of benefit, right? Not so. `tuple`s are great when you depend on your data staying unchanged. Because of this guarantee, we can use `tuples` in other types of containers like `set`s and `dictionaries`.
 
 It's also a great way to quickly consolidate information.
 
