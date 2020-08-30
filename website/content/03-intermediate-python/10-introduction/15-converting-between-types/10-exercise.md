@@ -84,7 +84,7 @@ Oops, that wasn't quite what we wanted. Running any object through `str()` will 
 >>> '-'.join(my_list)
 ```
 
-Another common way of converting a list to a string is with the string's `split()` method. This is useful for lightweight parsing of, for example, CSV (comma separated value) data.
+Another common way of converting a string into a list is with the string's `split()` method. This is useful for lightweight parsing of, for example, CSV (comma separated value) data.
 
 ```python
 >>> my_string = "the,quick,brown,fox"
