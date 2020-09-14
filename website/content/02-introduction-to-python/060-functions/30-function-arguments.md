@@ -25,7 +25,7 @@ Nina, Hello!.
 
 ### Keyword arguments with default values
 
-Functions can accept two types of named arguments, ones without default values, and ones with default values. Arguments that have default values are called **keyword arguments**. The nice thing about defaults is they can be overridden when needed.
+Functions can accept two types of named arguments, ones without default values, and ones without default values. Arguments that have default values are called **keyword arguments**. The nice thing about defaults is that they can be overridden when needed.
 
 Let's see this in practice, by writing two functions that print out a greeting. One function will have a default argument to make things easier for us.
 
