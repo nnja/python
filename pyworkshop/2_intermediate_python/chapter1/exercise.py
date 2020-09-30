@@ -1,7 +1,9 @@
+'''EDIT AND COMMENTING BY DANISH'''
+# MAKING VARIABLE BY TYPE CAST INTEGER TO STRING
 my_string = str(100)
 my_string
 type(my_string)
-
+# MAKING VARIABLE BY TYPE CAST STRING TO INTEGER 
 my_int = int(my_string)
 print(my_int)
 type(my_int)
