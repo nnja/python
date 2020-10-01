@@ -8,7 +8,10 @@ $("pre code").each(function (i, e) {
     var code = $(e);
     var pre = code.parent();
 
-    var language = code.attr('class').replace('language-', '');
+    var className = code.attr('class');
+    if(!className) return;
+
+    var language = className.replace('language-', '');
     var text_block = pre.text();
 
     is_python_repl = text_block.includes(">>> ");
