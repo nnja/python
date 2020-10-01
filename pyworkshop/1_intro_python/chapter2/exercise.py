@@ -37,3 +37,10 @@ name = "Nina"
 type(x)
 type(y)
 type(name)
+
+#Part 5
+num = 5
+type(num)
+num_str = toString(num)
+type(num_str)
+
