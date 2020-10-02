@@ -4,7 +4,7 @@ These are the resources for Nina Zakharenko's Two Day Intro to and Intermediate 
 
 * [Watch Python Fundamentals on Frontend Masters](https://frontendmasters.com/courses/python/)
 
-The majority of the content can be found on the course website.
+The majority of the content can be found on the course websites.
 
 * [Course Website - learnpython.netlify.com](https://learnpython.netlify.com)
 * [This Repo - git.io/python3](https://git.io/python3)
