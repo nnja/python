@@ -1,6 +1,6 @@
 Local setup instructions:
 
-1. Install Hugo
+1. Install Hugo version v0.54.0 for the site to render properly
 1. clone hugo learn theme from https://github.com/matcornic/hugo-theme-learn, update `themesdir` in config.toml
 1. `cd python` then, `hugo server -D` to run local server
 
