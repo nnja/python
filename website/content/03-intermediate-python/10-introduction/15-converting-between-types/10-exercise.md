@@ -33,7 +33,7 @@ You can also use `float()` to convert strings into floating point numbers:
 3.1415
 ```
 
-Bonus tip: `int()` works great for converting floats as well, as long as don't care about the mantissa (the part after the decimal point):
+Bonus tip: `int()` works great for converting floats as well, as long as you don't care about the mantissa (the part after the decimal point):
 
 ```python
 >>> int(3.1415)
@@ -75,7 +75,7 @@ A `str`ing can be considered as just a list of characters, so converting back an
 >>> str(my_list)
 ```
 
-Oops, that wasn't quite what we wanted. Running any object through `str()` will usually return a literal string of that object. What we want is to *join* the elements of the list (into a string). We can do that using any string's built-in `join()` method. In this case, we'll use an empty string:
+Oops, that wasn't quite what we wanted. Running any object through `str()` will usually return a literal string of that object. What we want is to *join* the elements of the list (into a string). We can do that using string's built-in `join()` method. In this case, we'll use an empty string:
 
 ```python
 >>> ''.join(my_list)

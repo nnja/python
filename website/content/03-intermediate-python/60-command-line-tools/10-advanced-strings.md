@@ -38,6 +38,9 @@ Note how the second one is padded with extra spaces - the number is four charact
 Sometimes it's easier to break up large statements into multiple lines. Just prepend every line with `f`:
 
 ```python
+>>> name = 'Nina'
+>>> pi = 3.14
+>>> food = 'pie'
 >>> message = (
 ...     f"Hello, my name is {name}. "
 ...     f"I can calculate pi to two places: {pi:4.3}. "
@@ -82,7 +85,7 @@ Strings have a useful function for replacing characters - just call `replace()` 
 
 ### `str.format()` and `%` formatting
 
-Python has two older methods of string formatting that you'll probably come across at some point. `str.format()` is the more verbose older cousin to f-strings - variables appear in brackets in the string but must be passed in to the `format()` call. For example:
+Python has two older methods for string formatting that you'll probably come across at some point. `str.format()` is the more verbose older cousin to `f-strings` - variables appear in brackets in the string but must be passed in to the `format()` call. For example:
 
 ```python
 >>> name = "Nina"

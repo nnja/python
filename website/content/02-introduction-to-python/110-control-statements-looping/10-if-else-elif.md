@@ -182,7 +182,8 @@ Hello
 And vice-versa.
 
 ```python
->>> a = True
+>>> a = False
+>>> if a:
 ...     print("Hello")
 ... else:
 ...     print("Goodbye")
