@@ -1,6 +1,6 @@
-# Frontend Masters - Two Day Python Workshop
+# Frontend Masters - Fundamentals & Intermediate Python Courses
 
-These are the resources for Nina Zakharenko's Two Day Intro to and Intermediate Python Course
+These are the resources for Nina Zakharenko's Python Fundamentals and Intermediate Python Courses
 
 * [Watch Python Fundamentals on Frontend Masters](https://frontendmasters.com/courses/python/)
 
