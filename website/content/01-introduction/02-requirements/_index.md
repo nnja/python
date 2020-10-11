@@ -23,7 +23,7 @@ You'll need a few mandatory prerequisites for successfully participating in the 
 (`>` means prompt, don't type that in)
 
 ```powershell
-> "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned"
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 ```
 
 Then, type `Y` for Yes.
