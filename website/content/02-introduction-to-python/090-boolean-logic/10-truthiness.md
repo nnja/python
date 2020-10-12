@@ -12,7 +12,7 @@ Evaluating expression to be `True` or `False` will help us control the flow of o
 | type                                        	| truthiness                                                                     	|   	|
 |---------------------------------------------	|--------------------------------------------------------------------------------	|---	|
 | `int`                                       	| `0` is `False`, all other numbers are `True` (including negative)              	|   	|
-| containers - `list`, `tuple`, `set`, `dict` 	| empty container evaluates to `False`, container with items evaluates to `True) 	|   	|
+| containers - `list`, `tuple`, `set`, `dict` 	| empty container evaluates to `False`, container with items evaluates to `True`) 	|   	|
 | `None`                                      	| `False`                                                                        	|   	|
 
 We talked about `boolean` types, `True` and `False` earlier. `True` and `False` are keywords in Python, so make sure you don't name your variables the same thing.

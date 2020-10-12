@@ -27,7 +27,7 @@ You might ask, why tuples when Python already has lists? Tuples are different in
 A good use of a `tuple` might be for storing the information for a *row* in a spreadsheet. That data is information only. We don't necessarily care about updating or manipulating that data. We just want a read-only snapshot.
 
 
-Tuples are an interesting and powerful datatype, and one that's one of the more unique aspects of Python. Most other programming languages have ways of representing lists and dictionaries, but only a small subset contain tuples. Use them to your advantage.
+Tuples are an interesting and powerful datatype, and one of the more unique aspects of Python. Most other programming languages have ways of representing lists and dictionaries, but only a small subset contain tuples. Use them to your advantage.
 
 ### Examples
 

@@ -25,7 +25,7 @@ Or we could use f-strings to assemble a `dict` to keep game scores:
 {'player-0': 0, 'player-1': 0, 'player-2': 0, 'player-3': 0, 'player-4': 0}
 ```
 
-In the above, the f-string gets turned into the `dict` keys (`player-0`, etc.) and each value is set to 0. You can also operate on tuples for setting keys and values. For example, we'll use a list comprehension to create a list of tuples, then turn the tuples into `dict` keys and values:
+In the above example, the f-string gets turned into the `dict` keys (`player-0`, etc.) and each value is set to 0. You can also operate on tuples for setting keys and values. For example, we'll use a list comprehension to create a list of tuples, then turn the tuples into `dict` keys and values:
 
 ```python
 >>> my_list = [(f"player-{num}", num * 2) for num in range(0, 5)]
@@ -80,6 +80,7 @@ Generator comprehensions can be beneficial in circumstances where you want to it
 
 ```python
 >>> list_comp = "[num for num in range(0, 10 ** 8)]"
+>>> import timeit
 >>> timeit.timeit(list_comp, number=1)
 7.578090285999998
 # Over 7 seconds just to assemble one huge list

@@ -17,7 +17,7 @@ I've been involved in the Python community for approximately 6 years. During tha
 
 #### Stay in touch
 - <a href="https://twitter.com/nnja" target="_blank"><i class='fab fa-twitter'></i> @nnja</a>
-- <a href="https://linkedin.com/nnja" target="_blank"><i class='fab fa-linkedin'></i> LinkedIn</a>
+- <a href="https://www.linkedin.com/in/nnja/" target="_blank"><i class='fab fa-linkedin'></i> LinkedIn</a>
 - <a href="https://github.com/nnja/" target="_blank"><i class='fab fa-github'></i> GitHub</a> where you can find the code for this site and my other projects
 
 I occasionally blog on <a href="https://medium.com/@nnja" target="_blank"><i class='fab fa-medium'></i> Medium at @nnja</a>. You can find out more about me on my homepage [nnja.io](https://nnja.io).

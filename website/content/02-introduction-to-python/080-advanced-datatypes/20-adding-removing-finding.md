@@ -55,7 +55,7 @@ We can use `my_list.append(item)` to add an additional item to the end of the li
 
 ##### `my_list.insert(pos, item)` inserts an item into `my_list` at the given position
 
-Use `my_list.insert(pos, item()` to insert items in an arbitrary position in the list. If the position is 0, we'll insert at the beginning of the list.
+Use `my_list.insert(pos, item)` to insert items in an arbitrary position in the list. If the position is 0, we'll insert at the beginning of the list.
 
 ```python
 >>> names.insert(0, "Rose")
