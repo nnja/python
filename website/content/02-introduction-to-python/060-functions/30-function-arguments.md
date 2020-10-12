@@ -95,7 +95,7 @@ There are a few important things to know about calling functions with arguments.
 Arguments without default values are **required** by Python. Otherwise your function wouldn't know what to do! If you don't pass in all the required arguments, you'll get a `TypeError`.
 
 In the REPL:
-```
+```python
 >>> def say_greeting(name, greeting):
 ...     print(f"{greeting}, {name}.")
 ...
