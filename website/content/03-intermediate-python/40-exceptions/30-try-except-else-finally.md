@@ -16,12 +16,12 @@ A basic example looks like this:
 ...     print("That number was invalid")
 ```
 
-First, the `try` clause is executed. If no exception occurs, the `except` clause is skipped and execution of the `try` statement is finished. If an exception occurs in the `try` clause, the rest of the clause is skipped. If the the exception's type matches the exception named after the `except` keyword, then the `except` clause is executed. If the exception doesn't match, then the exception is *unhandled* and execution stops.
+First, the `try` clause is executed. If no exception occurs, the `except` clause is skipped and execution of the `try` statement is finished. If an exception occurs in the `try` clause, the rest of the clause is skipped. If the exception's type matches the exception named after the `except` keyword, then the `except` clause is executed. If the exception doesn't match, then the exception is *unhandled* and execution stops.
 
 
 ### The `except` Clause
 
-An `except` clause my have multiple exceptions, given as a parenthesized tuple:
+An `except` clause may have multiple exceptions, given as a parenthesized tuple:
 
 ```python
 try:

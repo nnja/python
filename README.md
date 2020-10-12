@@ -6,7 +6,7 @@ These are the resources for Nina Zakharenko's Python Fundamentals and Intermedia
 
 The majority of the content can be found on the course website.
 
-* [Course Website - learnpython.netlify.com](https://learnpython.netlify.com)
+* [Course Website - https://www.learnpython.dev](https://www.learnpython.dev)
 * [This Repo - git.io/python3](https://git.io/python3)
 * [Follow Nina on Twitter](https://twitter.com/nnja)
 

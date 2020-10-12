@@ -13,11 +13,11 @@ You might be surprised to learn that Python is 30 years old!
 
 ### Where is it used?
 
-A common misconception that Python is a scripting language. It's used at companies from Reddit, to Netflix, to Dropbox.
+A common misconception is that Python is a scripting language. It's used at companies from Reddit, to Netflix, to Dropbox.
 
 ### What's all this about Python 2 vs Python 3
 
-This part is a bit of a stain on Pythons history. Python 3 was released 2008, and its adoption was slow. First and foremost because it took popular packages a fair amount of time to port over their code.
+This part is a bit of a stain on Python's history. Python 3 was released 2008, and its adoption was slow. First and foremost because it took popular packages a fair amount of time to port over their code.
 
 This debate is now over. Python 2 will reach end-of-life in 2020, meaning that important updates - including security updates - will stop being released. That's why this course focuses on *Python3 only*.
 

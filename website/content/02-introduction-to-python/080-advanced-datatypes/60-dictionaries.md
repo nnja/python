@@ -142,7 +142,7 @@ If you try to put a key into a dictionary that's already there, you'll just end 
 
 >>> nums[8] = "oops, overwritten"
 >>> nums
-{1: 'one', 2: 'two', 3: 'three', 8: ', overwritten'}
+{1: 'one', 2: 'two', 3: 'three', 8: 'oops, overwritten'}
 >>> 8 in nums
 True
 ```
@@ -178,7 +178,7 @@ There are three useful methods you need to remember about `dict`ionary access:
 
 1. `my_dict.keys()`
 2. `my_dict.values()`
-3. `'my_dict.items()`
+3. `my_dict.items()`
 
 #### 1. `my_dict.keys()` Getting all the keys in a dictionary
 
