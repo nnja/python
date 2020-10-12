@@ -5,7 +5,7 @@ draft: false
 weight: 3
 ---
 
-Many languages have the concept of the "Try-Catch" block. Python uses four keywords: `try`, `except`, `else`, and `finally`. Code that can possibly throw an exception goes in the `try` block. `except` gets the code that runs if an exception is raised. `else` is an optional block that runs if no exception was raise in the `try` block, and `finally` is an optional block of code that will run last, regardless of if an exception was raised. We'll focus on `try` and `except` for this chapter.
+Many languages have the concept of the "Try-Catch" block. Python uses four keywords: `try`, `except`, `else`, and `finally`. Code that can possibly throw an exception goes in the `try` block. `except` gets the code that runs if an exception is raised. `else` is an optional block that runs if no exception was raised in the `try` block, and `finally` is an optional block of code that will run last, regardless of if an exception was raised. We'll focus on `try` and `except` for this chapter.
 
 A basic example looks like this:
 
