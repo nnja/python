@@ -80,7 +80,7 @@ Value of returned num is: 900
 ```
 
 {{% notice tip %}}
-Tip: As you continue your Python journey, try using a debugger like the built-in `pdb` instead of the `print()` function to really dive into what your code is doing under the hood.
+Tip: As you continue your Python journey, try using a debugger, like the built-in `pdb` instead of the `print()` function to really dive into what your code is doing under the hood.
 {{% /notice %}}
 
 
