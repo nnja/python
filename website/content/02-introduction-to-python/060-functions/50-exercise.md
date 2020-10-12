@@ -8,7 +8,7 @@ pre: "<b>⭐️ </b>"
 
 ## Functions
 
-Let's try creating a basic function. Use tab to intent the second line, and press enter on an empty line to finish the function.
+Let's try creating a basic function. Use tab to indent the second line, and press enter on an empty line to finish the function.
 
 ```python
 >>> def add_numbers(x, y):
