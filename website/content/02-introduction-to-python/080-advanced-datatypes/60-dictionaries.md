@@ -5,11 +5,6 @@ draft: false
 weight: 60
 ---
 
-```bash
-$ ls
-$ cd foo
-```
-
 Dictionaries are a useful type that allow us to store our data in key, value pairs. Dictionaries themselves are **mutable**, *but*, dictionary keys can only be **immutable** types.
 
 We use dictionaries when we want to be able to quickly access additional data associated with a particular key. A great practical application for dictionaries is memoization. Let's say you want to save computing power, and store the result for a function called with particular arguments. The arguments could be the key, with the result stored as the value. Next time someone calls your function, you can check your dictionary to see if the answer is pre-computed.
