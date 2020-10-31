@@ -15,7 +15,7 @@ Sets are a datatype that allows you to store other **immutable** types in an uns
 | creation           	| `set()` for an empty set (`{}` makes an empty `dict`) and `{1, 2, 3}` for a set with items in it                              	|
 | search methods     	| `item in my_set`                                                                                                              	|
 | search speed       	| Searching for an item in a large set is very fast.                                                                            	|
-| common methods     	| `my_set.add(item)`, `my_set.discard(item)` to remove the item if it's present, `my_set.update(other_set)` 	|
+| common methods     	| `my_set.add(item)`,to add an item to a set , `my_set.discard(item)` to remove the item if it's present, `my_set.update(other_set)` 	|
 | order preserved?   	| **No**. Items *can't* be accessed by index.                                                                                   	|
 | mutable?           	| **Yes**. Can add to or remove from `set`s.                                                                                    	|
 | in-place sortable? 	| **No**, because items aren't ordered.                                                                                                                        	|
