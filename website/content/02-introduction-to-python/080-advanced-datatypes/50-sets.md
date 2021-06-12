@@ -100,7 +100,7 @@ Tip: *If you don't care about order*, you can quickly de-duplicate the items in 
 
 #### `set`s don't have an order
 
-Sets don't have an order. That means that when you print them, the items won't be displayed in the order they were entered in the list.
+Sets don't have an order. That means that when you print them, the items won't be displayed in the order they were entered.
 
 ```python
 >>> my_set = {1, "a", 2, "b", "cat"}
@@ -138,6 +138,8 @@ Since a set has no order, we can't add or remove items to it by index. We need t
 
 ##### Add items to a set with `my_set.add(item)`.
 
+ If the `set` contain the item, no error occurs. Item will not be duplicated.
+
 ```python
 >>> colors = {"Red", "Green", "Blue"}
 >>> colors.add("Orange")
@@ -147,7 +149,7 @@ Since a set has no order, we can't add or remove items to it by index. We need t
 
 ##### Remove items with `my_set.discard(item)`
 
-You can remove an item from a `set` if it's present with `my_set.discard(item)`. If the set doesn't contain the item, no error occurs.
+You can remove an item from a `set` if it's present with `my_set.discard(item)`. If the `set` doesn't contain the item, no error occurs.
 
 ```python
 >>> colors = {"Red", "Green", "Blue"}
