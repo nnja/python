@@ -17,7 +17,7 @@ You might ask, why tuples when Python already has lists? Tuples are different in
 | creation           	| `()` or `tuple()` for empty tuple. `(1, )` for one item, or `(1, 2, 3)` for a tuple with items.         	|
 | search methods     	| `my_tuple.index(item)` or `item in my_tuple`                                                            	|
 | search speed       	| Searching for an item in a large tuple is slow. Each item must be checked.                              	|
-| common methods     	| Can't add or remove from tuples.                                                                        	|
+| common methods     	| Can't add or remove from tuples. So `my_tuple.count(item)` count of item and `my_tuple.index(item)` are the only methods |        
 | order preserved?   	| Yes. Items can be accessed by index.                                                                    	|
 | mutable?           	| **No**                                                                                                  	|
 | in-place sortable? 	| **No**                                                                                                  	|
