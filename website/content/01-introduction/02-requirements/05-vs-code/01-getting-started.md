@@ -4,7 +4,7 @@ draft: false
 weight: 1
 ---
 
-Visual Studio Code (commonly called VS Code) is a free, open source, lightweight cross platform code editor. A fresh installation is bare bones -- the power of VS Code comes via the extensions. There are useful extensions for every programming languages you can think of, but the choice of which ones to install and how to configure your editor is up to you.
+Visual Studio Code (commonly called VS Code) is a free, open source, lightweight cross platform code editor. A fresh installation is bare bones -- the power of VS Code comes via the extensions. There are useful extensions for every programming language you can think of, but the choice of which ones to install and how to configure your editor is up to you.
 
 ## Installation
 
