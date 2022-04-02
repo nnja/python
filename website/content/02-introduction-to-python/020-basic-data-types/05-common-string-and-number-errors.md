@@ -5,7 +5,7 @@ draft: false
 weight: 5
 ---
 
-There are a few common errors that you'll encounter when working with Strings and numbers. Remember, in Python program errors are called Exceptions. By going over what they are, you'll be able to recognize them immediately.
+There are a few common errors that you'll encounter when working with strings and numbers. Remember, in Python program errors are called Exceptions. By going over what they are, you'll be able to recognize them immediately.
 
 ### Scenario 1: Mismatched string quotes
 
