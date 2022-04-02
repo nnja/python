@@ -90,7 +90,7 @@ For example, in the REPL, let's make a new variable `name`, and check its `type`
 We'll see that the type is `str`, Python's version of a string. Now that we know this object's type, we can
 pass the type into other methods.
 
-The first one is `dir()` which stands for directory. If we check the directory of `str` (notice, no quotes here)) in the REPL, we'll see all the methods available on strings in Python. Don't worry about these for now, we'll use them later in the day.
+The first one is `dir()` which stands for directory. If we check the directory of `str` (notice, no quotes here) in the REPL, we'll see all the methods available on strings in Python. Don't worry about these for now, we'll use them later in the day.
 
 ```Python
 >>> dir(str)
