@@ -37,7 +37,7 @@ SyntaxError: EOL while scanning string literal
 Trying to add or concatenate a String and a number will result in a `TypeError`
 {{% /notice %}}
 
-If you add try to add (or concatenate) a String and a number, you'll get an error saying that adding the two types together isn't possible.
+If you try to add (or concatenate) a String and a number, you'll get an error saying that adding the two types together isn't possible.
 
 #### Input: 3 + "Three"
 
