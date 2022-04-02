@@ -46,7 +46,7 @@ long_greeting = """
 
 #### Printing Strings
 
-Strings can be printed out using the `print()` function in Python. While you're working the REPL, you'll see that variables are displayed for you. When you move on to writing standalone Python programs, that will no longer be the case.
+Strings can be printed out using the `print()` function in Python. While you're working in the REPL, you'll see that variables are displayed for you. When you move on to writing standalone Python programs, that will no longer be the case.
 
 To use the `print()` function, call it with a regular or formatted string.
 
