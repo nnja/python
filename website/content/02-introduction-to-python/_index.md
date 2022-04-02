@@ -19,7 +19,7 @@ Today you'll be learning all the foundational basics of Python. How to work with
 
 By coding along with me in this workshop, you'll:
 
-* You’ll learn about the origins of Python, and how it can help you solve complex problems quickly.
+* Learn about the origins of Python, and how it can help you solve complex problems quickly.
 * Learn about the different data types Python has to offer, including tips on when and how to use each one.
 * Understand the control flow of Python programs - loops, boolean statements, if statements, and return statements.
 * Make your code more concise by writing reusable functions.
