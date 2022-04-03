@@ -134,7 +134,7 @@ Tip: If your set contains items of the same type, and you want to sort the items
 
 #### adding to and removing from `set`s
 
-Since a set has no order, we can't add or remove items to it by index. We need to call the operations with the item itself.
+Since a set has no order, we can't add or remove items from it by index. We need to call the operations with the item itself.
 
 ##### Add items to a set with `my_set.add(item)`.
 
