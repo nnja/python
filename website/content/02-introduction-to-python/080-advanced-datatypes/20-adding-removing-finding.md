@@ -163,7 +163,7 @@ Or, when used with `my_list.index(item)`:
 ```
 
 {{% notice info %}}
-You'll see a `IndexError: list assignment index out of range` if you try to update an item in a position that doesn't exist, that is *if the position is greater than or equal to `>=` the length of the list*.
+You'll see an `IndexError: list assignment index out of range` if you try to update an item in a position that doesn't exist, that is *if the position is greater than or equal to `>=` the length of the list*.
 {{% /notice %}}
 
 ```python
