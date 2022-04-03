@@ -162,7 +162,7 @@ IndentationError: expected an indented block
 
 Once you've defined a function, you can call it from your Python code as many times as you'd like.
 
-To call a Python function, type in it's name, along with parenthesis, and any *required* arguments to the function. Let's try it now, with a function that doesn't require arguments.
+To call a Python function, type in its name, along with parenthesis, and any *required* arguments to the function. Let's try it now, with a function that doesn't require arguments.
 
 ```python
 >>> def hello_world():
