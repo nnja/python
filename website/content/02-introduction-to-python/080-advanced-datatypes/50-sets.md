@@ -60,7 +60,7 @@ Now, let's make a new set with some items in it, and test out important set conc
 
 #### `set`s can't contain mutable types
 
-The way that `set`s allow you to quickly check if an item is contained in them or not is with an algorithm called a hash. I won't cover the details, but an algorithm is a way of representing an immutable data type with a unique numerical representation. In Python, there's a built-in `hash()` function.
+The way that `set`s allow you to quickly check if an item is contained in them or not is with an algorithm called a hash. I won't cover the details, but a hash is a way of representing an immutable data type with a unique numerical representation. In Python, there's a built-in `hash()` function.
 
 The `hash()` function only works on immutable data types. That means, data types where the contents can't be changed after creation.
 
