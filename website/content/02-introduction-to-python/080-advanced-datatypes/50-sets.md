@@ -224,7 +224,7 @@ Next, let's find the intersection. We'll create a new `set` with *only* the item
 {'Blue'}
 ```
 
-Lastly, We can also find the difference. Create a new set with the items that are in in one, but not the other. We'll see that `"Blue"` is missing from the list.
+Lastly, We can also find the difference. Create a new set with the items that are in one, but not the other. We'll see that `"Blue"` is missing from the list.
 
 ```python
 >>> rainbow_colors ^ favorite_colors
