@@ -50,7 +50,7 @@ There are many other ways to interact with our lists as well:
 >>> last_item = my_list.pop()
 >>> last_item
 
-# We can also look at individual items my using an index:
+# We can also look at individual items by using an index:
 >>> my_list[2]
 # Or we can see if a certain value exists in the list:
 >>> "!" in my_list
