@@ -101,7 +101,7 @@ True
 
 | a       	| `not` a    	|
 |---------	|------------	|
-| true  	| False    	|
+| true  	| **`False`**  |
 | false 	| **`True`** 	|
 
 
