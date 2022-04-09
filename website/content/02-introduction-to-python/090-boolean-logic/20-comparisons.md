@@ -16,7 +16,7 @@ How can we compare different values with each other?
 |`>`|greater-than|
 |`>=`|greater-than-or-equal-to|
 
-In Python, comparing numbers is pretty straight forward.
+In Python, comparing numbers is pretty straightforward.
 
 ```python
 >>> 1 < 10  # 1 is less than 10? True
