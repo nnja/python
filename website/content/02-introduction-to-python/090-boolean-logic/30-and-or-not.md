@@ -160,7 +160,7 @@ True
 
 ### With "truthiness"
 
-Remember, we learned that some values in Python are *falsey* like the number zero, and some are *truthy* like any number *expect* for zero.
+Remember, we learned that some values in Python are *falsey* like the number zero, and some are *truthy* like any number *except* for zero.
 
 It's a little counter intuitive, but when we compare values other than `bool`eans, our code behaves a little differently.
 
