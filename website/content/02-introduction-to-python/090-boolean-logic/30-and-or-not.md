@@ -162,7 +162,7 @@ True
 
 Remember, we learned that some values in Python are *falsey* like the number zero, and some are *truthy* like any number *expect* for zero.
 
-It's a little counter intuitive, but when we compare values other than `bool`eans, our code behaves a little differently.
+It's a little counterintuitive, but when we compare values other than `bool`eans, our code behaves a little differently.
 
 |Operation|Result|
 |---|---|
