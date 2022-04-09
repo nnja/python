@@ -55,7 +55,7 @@ False
 False
 ```
 
-Notice what happens when do the same thing to values that have a "truthiness" to them.
+Notice what happens when we do the same thing to values that have a "truthiness" to them.
 
 ```python
 >>> bool(0) # Verify that zero is "falsey"
