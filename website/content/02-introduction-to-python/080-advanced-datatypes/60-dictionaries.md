@@ -144,7 +144,7 @@ True
 
 #### Updating
 
-Just like with `list`s an `set`s, you can update the items in a dictionary with the items from another dictionary.
+Just like with `list`s and `set`s, you can update the items in a dictionary with the items from another dictionary.
 
 ```python
 >>> colors = {"r": "Red", "g": "Green"}
