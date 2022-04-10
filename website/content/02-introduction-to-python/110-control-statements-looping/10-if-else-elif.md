@@ -76,7 +76,7 @@ Hi there.
 
 ### `if` Statements and Functions
 
-You can easily declare `if` statements in your functions, you just need to mindful of the level of indentation. Notice how the code belonging to the `if` statement is indented at *two levels*.
+You can easily declare `if` statements in your functions, you just need to be mindful of the level of indentation. Notice how the code belonging to the `if` statement is indented at *two levels*.
 
 ```python
 >>> def modify_name(name):
