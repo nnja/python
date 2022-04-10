@@ -329,7 +329,7 @@ True
 
 ## `while` loop
 
-Instead of looping over a sequence, `while` loops continue looping while a certain condition is met (or not met). The condition is checked at the beginning every iteration.
+Instead of looping over a sequence, `while` loops continue looping while a certain condition is met (or not met). The condition is checked at the beginning of every iteration.
 
 ```python
 >>> counter = 0
