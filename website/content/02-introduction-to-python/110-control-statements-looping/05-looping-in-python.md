@@ -90,7 +90,7 @@ The number is: 8
 The number is: 10
 ```
 
-What do inclusive and exclusive mean in this context? *Exclusive* means that the end result *will not* include that number. If you'd like the numbers from 0 to 4, you would call `range(5)`. Consider 5 to the *stopping point*. *Inclusive* means the range will include the number. The `start` parameter is inclusive, meaning if you'd like the range of numbers from 1 to 4, you'd call `range(1, 5)`.
+What do inclusive and exclusive mean in this context? *Exclusive* means that the end result *will not* include that number. If you'd like the numbers from 0 to 4, you would call `range(5)`. Consider 5 to be the *stopping point*. *Inclusive* means the range will include the number. The `start` parameter is inclusive, meaning if you'd like the range of numbers from 1 to 4, you'd call `range(1, 5)`.
 
 {{% notice tip %}}
 If you can't remember how to use range, don't forget to call `help(range)` from the command line.
