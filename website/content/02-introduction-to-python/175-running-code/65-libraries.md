@@ -13,7 +13,7 @@ For example, if we wanted a random integer between 0 and 100, we could use `rand
 
 ```python
 >>> import random
->>> random.randint(0, 100)
+>>> print(random.randint(0, 100))
 42
 ```
 
@@ -21,7 +21,7 @@ Notice that the namespace is preserved (we needed to call `random.randint()`). I
 
 ```python
 >>> from random import randint
->>> randint(0, 100)
+>>> print(randint(0, 100))
 64
 ```
 
