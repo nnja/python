@@ -170,7 +170,7 @@ def repos_with_most_stars(languages):
 
 {{%/expand%}}
 
-Finally, let's add a `languages` list to limit which languages we're interested in, and pass it to `repos_with_most_stars()`. Now, when we call our `repos_with_most_stars()` function with `["python", "javascript", "ruby"]` as our languages, the `create_query()` function will output create a query string that looks like `q=stars:>50000+language:python+language:javascript+language:ruby+&sort=stars&order=desc`. Because this is a simple GET request, this gets appended to our `gh_api_repo_search_url`, so our actual request URL is `https://api.github.com/search/repositories?q=stars:>50000+language:python+language:javascript+language:ruby+&sort=stars&order=desc`.
+Finally, let's add a `languages` list to limit which languages we're interested in, and pass it to `repos_with_most_stars()`. Now, when we call our `repos_with_most_stars()` function with `["python", "javascript", "ruby"]` as our languages, the `create_query()` function will output a query string that looks like `q=stars:>50000+language:python+language:javascript+language:ruby+&sort=stars&order=desc`. Because this is a simple GET request, this gets appended to our `gh_api_repo_search_url`, so our actual request URL is `https://api.github.com/search/repositories?q=stars:>50000+language:python+language:javascript+language:ruby+&sort=stars&order=desc`.
 
 Run your program.
 
