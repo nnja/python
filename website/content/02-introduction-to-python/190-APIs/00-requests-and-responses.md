@@ -12,7 +12,7 @@ Zapier has an *excellent* intro to APIs by by Brian Cooksey. The images and diag
 
 ### Requests and Responses
 
-Working with APIs using HTTP depends on the request and response cycle. You send a request to the server, and it lets you know if your request was successful or by sending an HTTP Status Code with a special meaning, and will optionally send back data.
+Working with APIs using HTTP depends on the request and response cycle. You send a request to the server, and it lets you know if your request was successful or not by sending an HTTP Status Code with a special meaning, and will optionally send back data.
 
 ![](/02-introduction-to-python/190-APIs/images/request-response.jpeg?width=40pc)
 
