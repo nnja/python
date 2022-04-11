@@ -103,7 +103,7 @@ What if we run our other program again?
 The value of __name__ is: name_lib
 ```
 
-When we "run" our library by importing it, we'll see that it's `__name__` is set to the name of the file that it's in, minus the `.py` extension. In this case, `__name__` is set to `name_lib`.
+When we "run" our library by importing it, we'll see that its `__name__` is set to the name of the file that it's in, minus the `.py` extension. In this case, `__name__` is set to `name_lib`.
 
 ### Putting Code in a `main` Conditional
 
