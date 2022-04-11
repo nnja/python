@@ -58,7 +58,7 @@ To create a new file in VS Code, hit `Ctrl+N` on Windows and Linux, and `⌘N` (
 This will open a new file. Next, save the file with a `.py` extension.
 
 {{% notice info %}}
-Create a new simple Python program in a file called `hello.py` in our `pyworkshop` direc tory with the following contents:
+Create a new simple Python program in a file called `hello.py` in our `pyworkshop` directory with the following contents:
 {{% /notice %}}
 
 ```python
