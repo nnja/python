@@ -21,7 +21,7 @@ Working with APIs using HTTP depends on the request and response cycle. You send
 The HTTP Method (or verb) is how you tell the server which *type* of operation you'd like to perform.
 
 - `GET` - Ask the server to get a resource.
-- `POST` - Ask the server to create a resources, with the data that you've provided.
+- `POST` - Ask the server to create a resource, with the data that you've provided.
 - `PUT` - Edit or update a resource.
 - `DELETE` - Delete a resource.
 
