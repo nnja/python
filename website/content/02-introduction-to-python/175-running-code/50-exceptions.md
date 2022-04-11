@@ -15,7 +15,7 @@ Let's make a file called `exceptions.py`:
 # this will throw an exception!
 int("a")
 
-print("End of the program.")
+print("Reached end of the program.")
 ```
 
 And run it:
