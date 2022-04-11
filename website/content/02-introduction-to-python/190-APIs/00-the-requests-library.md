@@ -8,7 +8,7 @@ weight: 3
 
 Python is "batteries included", but sometimes the included libraries available in the standard library can be hard to understand. The standard library focuses on functionality, but not necessarily ease of use.
 
-That's where external libraries come in. The external `requests` library was developed by Kenneth Reitz to make working with APIs in Python a lot easier. He calls it "HTTP, for humans." It's become of the (if not the most) popular Python library!
+That's where external libraries come in. The external `requests` library was developed by Kenneth Reitz to make working with APIs in Python a lot easier. He calls it "HTTP, for humans." It's become one of the (if not the most) popular Python library!
 
 ### Our First Request With The `requests` Library
 
