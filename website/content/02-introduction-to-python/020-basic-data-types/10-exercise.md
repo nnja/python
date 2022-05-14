@@ -22,7 +22,7 @@ List the type of the following variables using the `type()` function.
 
 ### Numbers
 
-Calculate the amount of rent you pay daily, by taking your monthly rent and diving it by 30.
+Calculate the amount of rent you pay daily, by taking your monthly rent and dividing it by 30.
 
 ```python
 >>> rent = 480
