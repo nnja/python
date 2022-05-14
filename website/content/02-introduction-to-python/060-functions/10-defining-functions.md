@@ -19,7 +19,7 @@ This is the recipe for defining a Python function:
 1. `)` closing parenthesis
 1. `:` a colon
 
-A function in Python is defined with the `def` keyword, followed by the function names, zero or more argument names contained in parenthesis `()`, and a colon `:` to indicate the start of the function.
+A function in Python is defined with the `def` keyword, followed by the function name, zero or more argument names contained in parenthesis `()`, and a colon `:` to indicate the start of the function.
 
 The contents of the function then follow.
 
