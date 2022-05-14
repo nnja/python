@@ -5,7 +5,7 @@ draft: false
 weight: 10
 ---
 
-The purpose of functions in Python are to create reusable code. If we find ourselves copying and pasting the same code multiple times, that's a good sign that a function might help!
+The purpose of functions in Python is to create reusable code. If we find ourselves copying and pasting the same code multiple times, that's a good sign that a function might help!
 
 ### Anatomy of a function
 
