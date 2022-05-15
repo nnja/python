@@ -9,7 +9,7 @@ weight: 40
 
 Inside of a function in Python, the **scope** changes.
 
-Think about it this way: scoping in Python happens with whitespace. When we delineate the code a function contains by indenting it under a function definition, it's scope **changes** to a new internal scope. It has access to the variables defined outside of it, but it can't change them.
+Think about it this way: scoping in Python happens with whitespace. When we delineate the code a function contains by indenting it under a function definition, its scope **changes** to a new internal scope. It has access to the variables defined outside of it, but it can't change them.
 
 Once the function is done running, its scope goes away, as do its defined variables.
 
