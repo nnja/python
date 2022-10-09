@@ -51,7 +51,7 @@ You can also use conditionals (`if` statements) in your list comprehensions. For
 [4, 4]
 ```
 
-Here, we check divide every string length by 2, and check to see if the remainder is 0 (using the modulo operator).
+Here, we divide every string length by 2, and check to see if the remainder is 0 (using the modulo operator).
 
 
 ### String Joining with a List Comprehension
