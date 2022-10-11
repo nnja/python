@@ -196,7 +196,7 @@ If it's a `POST`, we'll grab the `languages` variable from the request form and 
         selected_languages = request.form.getlist("languages")
 ```
 
-Now, we just need to get our results and render our website. Call the `repos_with_most_stars()` function in `api.py` and pass it our `selected_languages`.
+Now, we just need to get our results and render our website. Call the `repos_with_most_stars()` function in `app.py` and pass it our `selected_languages`.
 
 Then, we'll return our flask `render_template()` function and pass it our list of selected languages, available languages, and our results.
 
