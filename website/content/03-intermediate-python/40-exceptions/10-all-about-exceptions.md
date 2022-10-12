@@ -7,7 +7,7 @@ weight: 1
 
 Built-in exceptions and easy exception handling is one of the shining features of Python. Technically, errors that happen during parsing are called `SyntaxError`s - these will probably be the most common errors you see, and usually happen because of a mistake in whitespace, a syntax misunderstanding, or a simple typo.
 
-Even if the syntax is correct, errors can still occur when your program is run. We call these Exceptions, and there a many different types (this is a good thing, because the more specifically we know what went wrong, the better we can handle it).
+Even if the syntax is correct, errors can still occur when your program is run. We call these Exceptions, and there are many different types (this is a good thing, because the more specifically we know what went wrong, the better we can handle it).
 
 An un-handled exception is fatal: it will print debugging information (called a traceback), stop the interpreter, and exit your program. However, once you learn to handle Exceptions, you can cover your bases and write programs that are robust in the face of issues.
 
