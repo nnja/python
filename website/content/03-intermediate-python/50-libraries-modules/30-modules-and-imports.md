@@ -28,7 +28,7 @@ Let's put our function in a file called `__init__.py` and place it in a folder c
 
 ### Best Practices
 
-There a few different ways to import modules or even just specific objects from modules. You can import *everything* from a module into the local namespace using `*`:
+There are a few different ways to import modules or even just specific objects from modules. You can import *everything* from a module into the local namespace using `*`:
 
 ```python
 >>> from my_math_functions import *
