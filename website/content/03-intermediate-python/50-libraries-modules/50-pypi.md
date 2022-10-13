@@ -5,7 +5,7 @@ draft: false
 weight: 5
 ---
 
-PyPI (the Python Package Index) is an awesome service that helps you find and install software developed and shared by the Python community. Almost every user-contributed Python package has been published to PyPI. You can browse the site at [pypi.org](https://pypi.org/) but most of the time you will probably interact with it through Python's `pip` tool.
+PyPI (the Python Package Index) is an awesome service that helps you find and install software developed and shared by the Python community. Almost every user-contributed Python package has been published to PyPI. You can browse the site at [pypi.org](https://pypi.org/), but most of the time you will probably interact with it through Python's `pip` tool.
 
 ### Basic Usage
 
