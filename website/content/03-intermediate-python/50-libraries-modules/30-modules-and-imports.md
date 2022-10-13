@@ -46,7 +46,7 @@ Better is to import functions specifically:
 3
 ```
 
-This make things a little clearer, as we can look at the top and see where the `add_number()` function came from. However, an even better way is to just import the module and use it in calls to maintain the namespace context:
+This makes things a little clearer, as we can look at the top and see where the `add_number()` function came from. However, an even better way is to just import the module and use it in calls to maintain the namespace context:
 
 ```python
 >>> import my_math_functions
