@@ -12,7 +12,7 @@ The downside to this is that the standard libraries need to maintain backwards c
 
 ### The Standard Library
 
-There are some great libraries included with Python that you'll probably end up seeing or using frequently. `sys` provides system-specific parameters and functions, such as `exit()`. `os` has miscellaneous operating system interfaces, and provides the excellent `os.path` submodule for handling file paths on any operating system. `math` gives you all the advanced math function. `json` is an easy-to-use json parser and encoder. Python even gives you built-in libraries for database access, logging, internet protocols, multimedia, debugging, and even libraries for extending Python itself. The full list of standard libraries can be found in the [Python documentation](https://docs.python.org/3/library/).
+There are some great libraries included with Python that you'll probably end up seeing or using frequently. `sys` provides system-specific parameters and functions, such as `exit()`. `os` has miscellaneous operating system interfaces, and provides the excellent `os.path` submodule for handling file paths on any operating system. `math` gives you all the advanced math functions. `json` is an easy-to-use json parser and encoder. Python even gives you built-in libraries for database access, logging, internet protocols, multimedia, debugging, and even libraries for extending Python itself. The full list of standard libraries can be found in the [Python documentation](https://docs.python.org/3/library/).
 
 As a quick example, let's look at Python's `datetime` library. You can easily make a `datetime` object that represents any given point in time. For example:
 
