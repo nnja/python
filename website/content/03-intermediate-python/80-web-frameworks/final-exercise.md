@@ -165,9 +165,9 @@ available_languages = ["Python", "JavaScript", "Ruby", "Java"]
 ```
 
 
-Next, we'll need a function that gets called when the root url for our website, or `/` is requested by the user
+Next, we'll need a function that gets called when the root url for our website, or `/` is requested by the user.
 
-. We'll start with the `@app.route()` decorator - we didn't cover decorators in this class, but just know that this signals to Flask that this `index()` function should be called to handle any `GET` or `POST` requests to the URL `/`.
+We'll start with the `@app.route()` decorator - we didn't cover decorators in this class, but just know that this signals to Flask that this `index()` function should be called to handle any `GET` or `POST` requests to the URL `/`.
 
 ```python
 @app.route('/', methods=['POST', 'GET'])
