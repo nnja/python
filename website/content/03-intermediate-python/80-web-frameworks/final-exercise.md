@@ -55,7 +55,7 @@ day_two_final
 
 ### `exceptions.py`
 
-Let's start with building a custom exception to handle API errors. Remember that is `response.status_code` is anything but `200`, you can consider that an error. Create a `GitHubApiException` class that subclasses `Exception`. Have it accept a `status_code` argument, and use that to create a custom message (you can copy the error strings we used yesterday). Pass the message to `Exception`
+Let's start with building a custom exception to handle API errors. Remember that if `response.status_code` is anything but `200`, you can consider that an error. Create a `GitHubApiException` class that subclasses `Exception`. Have it accept a `status_code` argument, and use that to create a custom message (you can copy the error strings we used yesterday). Pass the message to `Exception`
 
 {{%expand "You should have something like this:" %}}
 
