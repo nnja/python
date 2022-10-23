@@ -296,7 +296,7 @@ day_two_final
     └── index.html
 ```
 
-Create a new `unittest.TestCase` called `TestCreateQuery`. Inside, make a method called `test_create_query()`. In this method, create a list of language names and an `int` representing the a minimum number of stars. By looking at the `create_query()` function, see if you can figure out what the correct query string should be. Call the `create_query()` function with your test variables and use `self.assertEqual()` to make sure they match. Don't forget to `import repos.api` and add your `unittest.main()` invocation.
+Create a new `unittest.TestCase` called `TestCreateQuery`. Inside, make a method called `test_create_query()`. In this method, create a list of language names and an `int` representing the minimum number of stars. By looking at the `create_query()` function, see if you can figure out what the correct query string should be. Call the `create_query()` function with your test variables and use `self.assertEqual()` to make sure they match. Don't forget to `import repos.api` and add your `unittest.main()` invocation.
 
 {{%expand "You should have something like this:" %}}
 ```python
