@@ -76,7 +76,7 @@ class GitHubApiException(Exception):
 
 ### `models.py`
 
-Next, let's build our "model", the `GitHubRepo` class. For this, we want to accept three arguments (`name`, `language`, and `num_stars`) and store them as instance variables (using `self`). To have a user-friend way to print our repo information, add a `__str__()` method that prints a message with the three repo parameters. For completeness, see if you can add a `__repr__()` method that returns the Python code needed to recreate this object.
+Next, let's build our "model", the `GitHubRepo` class. For this, we want to accept three arguments (`name`, `language`, and `num_stars`) and store them as instance variables (using `self`). To have a user-friendly way to print our repo information, add a `__str__()` method that prints a message with the three repo parameters. For completeness, see if you can add a `__repr__()` method that returns the Python code needed to recreate this object.
 
 {{%expand "You should have something like this:" %}}
 
