@@ -72,7 +72,7 @@ Learn more about great naming practices for dynamic types by watching this 30-mi
 
 #### Naming Gotchas
 
-There are some things that you can't name your variables, such as `and`, `if`, `True`, or `False`. That's because Python uses these names for program control structure.
+In Python, certain words are called keywords because they are reserved for specific purposes and have predefined meanings in the language. These keywords cannot be used as variable names because they are essential for defining the structure and logic of Python code, That's because Python uses these names for program control structure.
 
 You can't start your variable name with a digit, although your variable name can end in a digit. Your variable name can't contain special characters, such as `!`,  `@`,  `#`, `$`,  `%` and more.
 
